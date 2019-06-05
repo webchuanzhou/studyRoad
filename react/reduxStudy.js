@@ -6,7 +6,7 @@ static propTypes = {
     togSelectPro: PropTypes.func.isRequired,
     editPro: PropTypes.func.isRequired,
   }
-1.onClick={this.handleEdit.bind(this, index, 1)}
+//1.onClick={this.handleEdit.bind(this, index, 1)}
 //2.调用方法
 handleEdit = (index, num) => {
     let currentNum = this.props.proData.dataList[index].selectNum + num;
